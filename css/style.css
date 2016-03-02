@@ -1,0 +1,71 @@
+body {
+    margin: 50px;
+}
+input.inputFile {
+    z-index: -1;
+    display: none;
+    overflow: hidden;
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+}
+
+label.inputLabel {
+    background: #22AAFF;
+    font-family: sans-serif, Helvetica, 'Helvetica Neue';
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    padding: 7px 15px;
+    border-bottom: 2px solid #008899;
+    text-align: left;
+    display: table-cell;
+    display: inline-table;
+    vertical-align: middle;
+    color: #ffffff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: .1s ease all;
+    -moz-transition: .1s ease all;
+    -ms-transition: .1s ease all;
+    -o-transition: .1s ease all;
+    transition: .1s ease all
+}
+
+label.inputLabel:hover {
+    background: #1199EE
+}
+label.inputLabel:active,
+label.inputLabel:focus {
+    background: #0088DD;
+    outline: 1px dotted
+}
+
+label.inputLabel * {
+    pointer-events: none;
+}
+
+.buttonUpload{
+    padding: 7.5px 15px;
+    background: #22AAFF;
+    background: linear-gradient(#22AAFF, #1EAEEF,  #1EAEEF);
+    background: -moz-linear-gradient(#22AAFF, #1EAEEF,  #1EAEEF);
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 2px solid #008899;
+    position: relative;
+    top: -1px;
+    cursor: pointer
+}
+.buttonUpload:hover,
+.buttonUpload:active,
+.buttonUpload:focus{
+    outline: none;
+    background: #1EAEEF
+}
+
